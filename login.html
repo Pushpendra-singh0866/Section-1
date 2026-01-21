@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <style>
+
+        *{
+            font-family: Roboto;
+        }
+
+        .card{
+            border: 2px solid red;
+
+            width: 20%;
+
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 3px 5px 10px 0 black;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .text-input{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+
+        .form-title{
+            font-size: 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3 class="form-title">Login Form</h3>
+
+        <form>
+            <label for="">Email Address</label>
+            <input type="email" class="text-input">
+
+            <label for="">password</label>
+            <input type="password" class="text-input">
+
+            <button class="btn-submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

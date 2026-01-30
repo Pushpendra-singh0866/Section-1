@@ -14,7 +14,7 @@
         }
 
         .card{
-            border: 2px solid red;
+            /* border: 2px solid red; */
 
             width: 20%;
 
@@ -22,6 +22,7 @@
             padding: 30px;
             box-shadow: 3px 5px 10px 0 black;
             box-sizing: border-box;
+            background-color: white;
         }
 
         body{
@@ -29,7 +30,16 @@
 
             justify-content: center;
             align-items: center;
+
             height: 100vh;
+            /* background-color: #ddd; */
+            /* background-image: url('https://images.wallpapersden.com/image/download/cool-landscape-night-minimal-art_bGxna2aUmZqaraWkpJRobWllrWdma2U.jpg'); */
+            /* background-image: linear-gradient(0deg, rgba(255, 119, 0, 0.55), rgb(0, 251, 255), rgba(255, 255, 0, 0.281)); */
+
+            background-image: linear-gradient(0deg, rgba(255, 119, 0, 0.55), rgb(0, 251, 255), rgba(255, 255, 0, 0.281)),
+              url('https://images.wallpapersden.com/image/download/cool-landscape-night-minimal-art_bGxna2aUmZqaraWkpJRobWllrWdma2U.jpg');
+              background-size: cover;
+              background-position: bottom;
         }
 
         .text-input{
@@ -38,11 +48,36 @@
             padding: 10px;
             box-sizing: border-box;
             margin-bottom: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
         }
 
         .form-title{
             font-size: 30px;
             text-align: center;
+        }
+
+        .link{
+            display: block;
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        .forget-link{
+            margin-bottom: 20px;
+        }
+
+        .signup-link{
+            margin: 20px 0;
+            text-align: center;
+        }
+        .btn-submit{
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(137, 43, 226);
+            color: white;
+            border: none;
+            border-radius: 5px;
         }
 
     </style>
@@ -58,7 +93,11 @@
             <label for="">password</label>
             <input type="password" class="text-input">
 
+            <a href="#" class="link forget-link">Forgot Password</a>
+
             <button class="btn-submit">Submit</button>
+
+            <a href="#" class="link signup-link">Not Registered Yet? Signup Now</a>
 
         </form>
 

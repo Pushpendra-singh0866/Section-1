@@ -7,6 +7,9 @@ body{
     align-items: center;     
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    background-image: url(https://images.wallpapersden.com/image/download/forest-minimal_amxraG2UmZqaraWkpJRnamtlrWZpaWU.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .btn{

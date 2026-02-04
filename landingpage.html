@@ -8,23 +8,42 @@
 </head>
 <body>
     
-    <header>
+        <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Tailblocks</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900">First Link</a>
+      <a class="mr-5 hover:text-gray-900">Second Link</a>
+      <a class="mr-5 hover:text-gray-900">Third Link</a>
+      <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+    </nav>
+    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
 
-    </header>
 
     <main>
         <article>
             <section class="">
-                <div class="container mx-auto">
-                    <div class="grid grid-cols-2">
-                        <div class="space-y-5 mx-auto">
+                <div class="px-6 md:px-0 container mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="text-center md:text-left space-y-5 mx-auto">
                             <h1 class="font-semibold text-5xl">Develop your
                                 <br>skills in a new
                                 <br>and unique way
                             </h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit voluptatum maiores dolore, dolorum corrupti inventore accusamus, reiciendis beatae ducimus ipsa placeat fuga, atque aspernatur quaerat nisi enim voluptatem laborum?</p>
-                            <div class="flex gap-3">
-                                <button class="bg-linear-to-r from-violet-400 to-pink-400 text-white px-4 py-2 rounded-md">Enroll Now</button>
+                            <div class="flex gap-3 justify-center md:justify-start">
+                                <button class="hover:shadow-xl duration-500 bg-linear-to-r from-violet-400 to-pink-400 text-white px-4 py-2 rounded-md">Enroll Now</button>
                                 <button class="border px-4 rounded-md">What's Etech</button>
 
                             </div>

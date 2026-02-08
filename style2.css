@@ -1,0 +1,12 @@
+@keyframes gallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-gallery {
+  animation: gallery 10s linear infinite;
+}

@@ -30,29 +30,37 @@
 
 
     <!-- Hero Section -->
-    <section class="min-h-screen bg-red-100 flex items-center">
-        <div class="container mx-auto px-6 text-center">
+    <section class="relative min-h-screen flex items-center justify-center text-center text-white">
 
-            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                We Create <span class="text-red-500">Memorable Events</span>
-            </h1>
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+        <img src="image copy.png" 
+             alt="Event Background"
+             class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/60"></div>
+    </div>
 
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
-                From weddings to corporate events, we plan everything perfectly
-                so you can enjoy your special moments.
-            </p>
+    <!-- Content -->
+    <div class="relative z-10 px-6 max-w-3xl">
 
-            <a href="#"
-               class="inline-block bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full text-lg transition mb-10">
-                Book Your Event
-            </a>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            We Create 
+            <span class="text-red-500">Memorable Events</span>
+        </h1>
 
-            <div class="flex justify-center">
-                <img src="image copy.png"alt="Event Image"class="rounded-2xl shadow-lg w-full max-w-3xl">
-            </div>
+        <p class="text-lg md:text-xl text-gray-200 mb-8">
+            From weddings to corporate events, we plan everything perfectly
+            so you can enjoy your special moments.
+        </p>
 
-        </div>
-    </section>
+        <a href="#"
+           class="inline-block bg-red-500 hover:bg-red-600 text-white px-10 py-4 rounded-full text-lg font-semibold transition duration-300 shadow-lg">
+            Book Your Event
+        </a>
+
+    </div>
+
+</section>
 
     <!-- Services Section -->
 <section class="bg-yellow-100 py-20 bg-white">

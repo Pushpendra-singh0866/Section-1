@@ -7,14 +7,14 @@
   margin: 20px;
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
+  background-color: violet;
 align-items: stretch;
 }
 
 .First{
     border: 2px solid red;
     width: 300px;
-  background-color: #ffffff35;
+  background-color: #ffffff91;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;
@@ -24,7 +24,7 @@ align-items: stretch;
 .Second{
     border: 2px solid red;
     width: 300px;
-  background-color: #ffffff00;
+  background-color: #ffffff95;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;
@@ -34,7 +34,7 @@ align-items: stretch;
 .Third{
     border: 2px solid red;
     width: 300px;
-    background-color: #ffffff00;
+    background-color: #ffffffa0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
